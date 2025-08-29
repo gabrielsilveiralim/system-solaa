@@ -10,13 +10,13 @@ export default function Header() {
     <>
 
 
-    <header className="flex justify-center items-center mx-auto text-blue-100 border-b border-blue-100 mt-5 mb-5 ">
+    <header className="flex justify-end  mx-auto text-blue-100  mt-8 mb-5 mr-4 ">
 
       <section className="flex justify-between gap-10 mb-2 sm:gap-10 md:gap-25 lg:gap-40 font-poppins">
 
         <div className="flex justify-center gap-2 mx-4">
           <h1 className="text-xl font-semibold">Cosmic Explorer</h1>
-          <Image src={Gala} alt="Gala" className="w-7 h-7" />
+      
         </div>
 
         <div className='flex mt-1'>
